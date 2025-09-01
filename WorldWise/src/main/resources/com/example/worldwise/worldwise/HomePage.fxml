@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="20" alignment="TOP_CENTER">
+
+    <ImageView fx:id="heroImage" preserveRatio="true" fitHeight="250">
+        <Image url="@images/hero-image.png"/>
+    </ImageView>
+</VBox>

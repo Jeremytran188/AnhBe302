@@ -1,0 +1,34 @@
+.navbar {
+    -fx-background-color: #2ed1e2;
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+}
+
+.navbar-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 5 15;
+}
+
+.navbar-button:hover {
+    -fx-text-fill: #ee6161;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-transition: all 0.2s ease;
+}
+
+.login-form {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+    -fx-max-width: 350px;
+}
+
+.headings {
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.worldwise.worldwise.RegisterController">
+    <center>
+        <VBox styleClass="login-form">
+            <Label styleClass="headings">Register account for World Wise</Label>
+            <TextField fx:id="firstnameField" promptText="First Name"/>
+            <TextField fx:id="lastnameField" promptText="Last Name"/>
+            <TextField fx:id="emailField" promptText="Email"/>
+            <PasswordField fx:id="passwordField" promptText="Password"/>
+            <PasswordField fx:id="confirmPasswordField" promptText="Confirm Password"/>
+            <Button text="Register" onAction="#handleRegister"/>
+            <Label fx:id="messageLabel"/>
+            <Button text="Already have an account? Login here" onAction="#goToLogin"/>
+        </VBox>
+    </center>
+</BorderPane>
